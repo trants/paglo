@@ -1,0 +1,27 @@
+{
+  "name": "trants/paglo",
+  "type": "library",
+  "description": "Laravel core package.",
+  "homepage": "https://trants.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Son T. Tran",
+      "email": "contact@trants.io"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.3",
+    "trants/easy-jsonapi": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trants\\Paglo\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
